@@ -27,9 +27,135 @@ Add your course schedule using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+'''{% load static %}
+<html>
+    <head>
+        <title>timetable</title>
+        <style>
+
+             body {
+      background-color: #f9f9f9;
+      text-align: center;
+      margin: 20px;
+    }
+            table {
+      border-collapse: collapse;
+      margin: 25px auto;
+      width: 85%;
+      background: white;
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+    }
+
+    th, td {
+      border: 1px solid #555;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #c9fc8bff;
+      color: black;
+    }
+
+    td {
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f7faf0ff;
+    }
+
+ .sub-table {
+      width: 60%;
+      margin-top: 30px;
+    }
+
+    .sub-table th {
+      background-color: #0c0c0cff;
+      color: white;
+    }
+
+    p {
+      margin-top: 20px;
+      color: #0bff1bff;
+    }
+
+
+        </style>
+    </head>
+    <body>
+         <img src={% static 'logo.png' %}>
+         <h2>SLOT TIME TABLE - SANTHANA LAKSHMI  (25016666)</h2>
+          <table>
+    <tr>
+      <th>Day/Time</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th>Saturday</th>
+    </tr>
+    <tr>
+      <td>8-10</td>
+      <td>PYTHON</td>
+      <td>FREE</td>
+      <td>WEB</td>
+      <td colspan="3">FREE</td>
+    </tr>
+    <tr>
+      <td>10-12</td>
+      <td>PYTHON</td>
+      <td>WEB</td>
+      <td colspan="2">F R E E</td>
+      <td>Python</td>
+      <td>FREE</td>
+    </tr>
+    <tr>
+      <td>12-1</td>
+      <td colspan="6">L U N C H</td>
+    </tr>
+    <tr>
+      <td>1-3</td>
+      <td>FREE</td>
+      <td>Python</td>
+      <td>MENTOR</td>
+      <td>FREE</td>
+      <td>Python</td>
+      <td>FREE</td>
+    </tr>
+    <tr>
+      <td>3-5</td>
+      <td colspan="3">WEB</td>
+      <td colspan="3">FREE</td>
+    </tr>
+</table>
+  <table class="sub-table">
+    <tr>
+      <th>Subject Code</th>
+      <th>Subject Name</th>
+    </tr>
+    <tr>
+      <td>19AI414</td>
+      <td>Fundamentals of Web Application Development (FWAD)</td>
+    </tr>
+    <tr>
+      <td>19AI301</td>
+      <td>Python Programming</td>
+    </tr>
+  </table>
+
+   <p>Prepared by: SANTHANA LAKSHMI  </p>
+    </body>
+
+</html>'''
 
 
 ## OUTPUT
+![WhatsApp Image 2025-12-09 at 11 31 56 AM](https://github.com/user-attachments/assets/073641f5-2c41-4c21-bab1-b3dadeb3370d)
+
+
 
 
 ## RESULT
