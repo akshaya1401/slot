@@ -27,7 +27,8 @@ Add your course schedule using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-'''{% load static %}
+```
+{% load static %}
 <html>
     <head>
         <title>timetable</title>
@@ -149,7 +150,9 @@ Execute the program using runserver command.
    <p>Prepared by: SANTHANA LAKSHMI  </p>
     </body>
 
-</html>'''
+</html>
+
+```
 
 
 ## OUTPUT
